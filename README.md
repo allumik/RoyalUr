@@ -3,7 +3,7 @@ Java beginners course project based on the ancient Royal Game of Ur
 
 Funktsionaalsused:
 * Mängulaud, kus on ntks:
-  > "
+  "
    ▐✩│✦│✩▌
    ▐✦│✦│✦▌
    ▐✦│✦│✦▌
@@ -12,7 +12,7 @@ Funktsionaalsused:
     ◁│✦│▷ 
    ▐✩│✦│✩▌
    ▐✦│✦│✦▌
-   "
+  "
   > laua piirded, 
   > "kasutajaliides" küsib kasutajalt mis tiimis tahab olla (◆ või ◇) ja mängu jooksul peale tärginuviset küsib kas soovib uue nupu panna mängu või liigutada olemasolevat - olemasoleva puhul siis kuidagi esitada valiku oma nuppude vahel), 
   > liiguvad nupud vastavalt selle mängu reeglitele ja kasutaja tiimile
