@@ -13,10 +13,9 @@ Funktsionaalsused:
   ▐✩│✦│✩▌
   ▐✦│✦│✦▌
   ```
-  > laua piirded, 
-  > "kasutajaliides" küsib kasutajalt mis tiimis tahab olla (◆ või ◇) ja mängu jooksul peale tärginuviset küsib kas soovib uue nupu panna mängu või liigutada olemasolevat - olemasoleva puhul siis kuidagi esitada valiku oma nuppude vahel), 
-  > liiguvad nupud vastavalt selle mängu reeglitele ja kasutaja tiimile
-  > kus 
+  * laua piirded, 
+  * "kasutajaliides" küsib kasutajalt mis tiimis tahab olla (◆ või ◇) ja mängu jooksul peale tärginuviset küsib kas soovib uue nupu panna mängu või liigutada olemasolevat - olemasoleva puhul siis kuidagi esitada valiku oma nuppude vahel), 
+  * liiguvad nupud vastavalt selle mängu reeglitele ja kasutaja tiimile
 * Täring, mis on lihtne random generaator (0-4 vahemikus) kuid võib ka teha visuaalsema (▲ = 0, △ = 1 täringud, mida siis on neli ehk ▲△▲▲ = 3, ▲△▲△ = 2 jne)
 * ...
 
