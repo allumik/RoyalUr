@@ -1,5 +1,6 @@
 # RoyalUr
->Java beginners course project based on the ancient Royal Game of Ur "/n"
+>Java beginners course project based on the ancient Royal Game of Ur
+
 >Inspiration taken from: https://www.youtube.com/watch?v=WZskjLq040I&t=524s
 
 Funktsionaalsused:
