@@ -2,14 +2,14 @@
 public class Mängulaud {
 	
 	/* mängulaud, kus on laua piirded, koordinaadid mängunuppudel ja nende piirangud, ... */
-	/* tiimi nupu tähised näiteks, võib küsida mängu alguses ka kasutajalt: valge-"◆", kes alustab vasakult, ja must-"◇", kes alustab paremalt  */
+	/* tiimi nupu tähised näiteks, võib küsida mängu alguses ka kasutajalt: valge-"◆"-int 0, kes alustab vasakult, ja must-"◇"- int 1, kes alustab paremalt  */
 	/* laud:   
 ▐✩│✦│✩▌
 ▐✦│✦│✦▌
 ▐✦│✦│✦▌
 ▐✦│✩│✦▌
-|◁│✦│▷|
-|◁│✦│▷| 
+|◁│✦│▷| <-- nuppude vaikeasukoht on siin (luua sinna 7 Nupp isendit).
+|◁│✦│▷| <-- nuppude lõppasukoht on siin (mäng võidetud kui seal 7 isendit).
 ▐✩│✦│✩▌
 ▐✦│✦│✦▌
 	 */
