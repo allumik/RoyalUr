@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Kasutajaliides {
+    private Scanner sc = new Scanner(System.in);
+    private int valitudpool;
+    private int nupuvalik;
+
+    public void kysimepoolt() {
+        System.out.println("Tere tulemast mängu! Sisesta 1, kui soovid olla valge; 2, kui soovid olla must. ");
+        valitudpool = sc.nextInt();
+    }
+
+    public int getValitudpool() {
+        return valitudpool;
+    }
+
+    public void nupuvalimine(){
+        System.out.println("Kui soovid tuua lauale uue nupu, sisesta 0. Kui soovid liigutada olemasolevat, sisesta selle number (1-7). ");
+        nupuvalik = sc.nextInt();
+    }
+
+    public int getNupuvalik() {
+        return nupuvalik;
+    }
+}
