@@ -6,7 +6,9 @@ public class Kasutajaliides {
     private int nupuvalik;
 
     public int nupuvalimine() {
-        System.out.println("Kui soovid tuua lauale uue nupu, sisesta 0. Kui soovid liigutada olemasolevat, sisesta selle number vastavalt mitmes ta laual on. ");
+        System.out.println("Kui soovid liigutada oma nuppu, sisesta nupule vastav number. ");
+        System.out.println("Kui ei saa käia, sisesta -1 et oma käigu vahele jätta");
+        System.out.print(">");
         nupuvalik = sc.nextInt();
         return nupuvalik;
     }

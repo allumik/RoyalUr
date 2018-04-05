@@ -12,7 +12,7 @@ public class Mängukaart {
     private List<Integer> mustadTeel = new ArrayList<>();
 
     public Mängukaart() {
-        for (int i = 0; i < 8; i++) {
+        for (int i = 1; i < 8; i++) {
             valgedAlguses.add(i);
             mustadAlguses.add(i);
         }
@@ -24,6 +24,22 @@ public class Mängukaart {
 
     public Rada getMustad() {
         return mustad;
+    }
+
+    public List getValgedTeel() {
+        return valgedTeel;
+    }
+
+    public List getMustadTeel() {
+        return mustadTeel;
+    }
+
+    public List<Integer> getValgedAlguses() {
+        return valgedAlguses;
+    }
+
+    public List<Integer> getMustadAlguses() {
+        return mustadAlguses;
     }
 
     public List<Integer> getValgedLõpus() {
