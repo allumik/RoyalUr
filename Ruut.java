@@ -5,5 +5,4 @@ public enum Ruut {
     TAVALINE,
     VALGENUPP,
     MUSTNUPP
-
 }
