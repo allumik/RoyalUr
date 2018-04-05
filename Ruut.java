@@ -1,7 +1,8 @@
-
-public interface Ruut {
-	
-	@Override
-	public String toString();
-	public void setTähis(String tähis);
+public enum Ruut {
+    ALGUS,
+    LÕPP,
+    ROSETT,
+    TAVALINE,
+    VALGENUPP,
+    MUSTNUPP
 }
